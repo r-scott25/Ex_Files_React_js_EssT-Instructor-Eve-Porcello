@@ -7,7 +7,6 @@ function App() {
     <div className="App">
       <input type="checkbox" value={checked} onChange={setChecked} />
       <label>{checked ? "Checked" : "Not Checked"}</label>
-      /* test */
     </div>
   );
 }
